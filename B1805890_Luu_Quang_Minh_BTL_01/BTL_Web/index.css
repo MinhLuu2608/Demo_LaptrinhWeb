@@ -1,0 +1,167 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family:Arial, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:18px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.page_Header{
+	width: auto;
+	height:50px;
+	background-color:#34495E;
+	line-height:50px;
+	color:white;
+	justify-content: center;
+}
+
+.page_Header .Account{
+	float:right;
+}
+
+.page_Header .Account ul{
+	list-style: none;
+	overflow:hidden;
+	display:block;
+}
+
+.page_Header .Account ul li{
+	display:inline-block;
+	border-left: 1px solid;
+	width: 199px;
+	text-align: center;	
+}
+#Welcome{
+	width: 290px;
+}
+#Money{
+	width: 300px;
+}
+.page_Header .Account ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	font-size: 20px;
+}
+.page_Header .Account ul li a:hover{
+	transition-duration:0s;
+	color:#D8A70C;
+}
+
+.page_Header .Account ul li #Login{
+	text-decoration:none;
+	color:white;
+	font-size: 20px;
+}
+.page_Header .Account ul li #Login:hover{
+	transition-duration:0s;
+	color:#D8A70C;
+}
+
+.nav_bar{
+	display: flex;
+	color: red;
+	width : 1365px;
+	height: 40px;
+	align-items: center;
+	background-color: yellow;
+}
+.nav_bar a{
+	text-decoration: none;
+	flex-basis:20%;
+	border-right: 2px solid;
+	border-bottom: 2px solid;
+	line-height:40px;
+	justify-content: center;
+}
+.nav_bar a:hover{
+	background-color: #77ceb1;
+}
+.search_bar{
+	text-align: center;	
+}
+.search_bar .search_box{
+	width: 650px;
+	height: 40px;
+	border-radius: 15px;
+	font-size: 15px;
+}
+.search_bar .search_submit{
+	width: 100px;
+	height: 40px;
+	border-radius: 15px;
+	font-size: 15px;
+}
+.search_bar ul{
+	list-style: none;
+	display: block;
+}
+.search_bar ul li{
+	display: inline-block;
+	padding-right: 10px;
+}
+.page_body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.page_body .hang_ngang{
+	
+}
+.page_body .hang_ngang .san_pham{
+	position: relative;
+	width: 300px;
+	height: 343px;
+	float: left;
+	flex-direction: column;
+	background-color: yellow;
+}
+.page_body .hang_ngang .san_pham .chitiet_sp{
+	text-decoration: none;
+	color: black;
+}
+.page_body .hang_ngang .san_pham .chitiet_sp .gia_sp label{
+	position: absolute;
+	color: blue;
+	bottom: 0%;
+}
+.page_body .hang_ngang .san_pham .chitiet_sp .gia_giam{
+	color: blue;
+	font-size: 25px;
+}
+.page_body .san_pham .chitiet_sp .img_sp{
+	position: relative;
+	width: 300px;
+	height: 250px;
+}
+.page_body .san_pham .chitiet_sp .ten_sp{
+	text-align: left;
+	overflow: hidden;
+	height: 41px;
+	display: -webkit-box;
+	-webkit-line-clamp: 2; /* So dong hien thi */
+	-webkit-box-orient: vertical;
+}
+
+/* hiển thị tooltip */
+.page_body .san_pham .chitiet_sp .ten_sp:before{
+	position: absolute;
+    z-index: 2;
+    display: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    content: attr(title);
+	bottom: 25%;
+}
+.page_body .san_pham .chitiet_sp .ten_sp:hover:before{
+	display: inline-block;
+}
+/* kết thúc */

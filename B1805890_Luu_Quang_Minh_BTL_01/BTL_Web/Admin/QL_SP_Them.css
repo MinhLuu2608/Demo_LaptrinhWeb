@@ -1,0 +1,132 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family:Arial, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:18px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.page_Header{
+	width: auto;
+	height:50px;
+	background-color:#34495E;
+	line-height:50px;
+	color:white;
+	justify-content: center;
+}
+
+.page_Header .Account{
+	float:right;
+}
+
+.page_Header .Account ul{
+	list-style: none;
+	overflow:hidden;
+	display:block;
+}
+
+.page_Header .Account ul li{
+	display:inline-block;
+	border-left: 1px solid;
+	width: 199px;
+	text-align: center;	
+}
+#Welcome{
+	width: 290px;
+}
+#Money{
+	width: 300px;
+}
+.page_Header .Account ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	font-size: 20px;
+}
+.page_Header .Account ul li a:hover{
+	transition-duration:0s;
+	color:#D8A70C;
+}
+
+.page_Header .Account ul li #Login{
+	text-decoration:none;
+	color:white;
+	font-size: 20px;
+}
+.page_Header .Account ul li #Login:hover{
+	transition-duration:0s;
+	color:#D8A70C;
+}
+
+.nav_bar{
+	display: flex;
+	color: red;
+	width : 1365px;
+	height: 40px;
+	align-items: center;
+	background-color: yellow;
+}
+.nav_bar a{
+	text-decoration: none;
+	flex-basis:25%;
+	border-right: 2px solid;
+	border-bottom: 2px solid;
+	line-height:40px;
+	justify-content: center;
+}
+.nav_bar a:hover{
+	background-color: #77ceb1;
+}
+.admin_content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.admin_content	#frmLoaiSP{
+
+}
+.admin_content	#frmLoaiSP p{
+
+}
+.admin_content	#frmLoaiSP select{
+	font-size: 20px;
+	width: 200px;
+	height: 30px;
+	margin: 5px;
+}
+.header_chitiet{
+	display:flex;
+	background-color: #67ce64;
+	width: 700px;
+	font-size: 25px;
+	height: 30px;
+	align-items: center;
+	border-bottom: 2px black solid;
+}
+.hidden_input{
+	display: none;
+}
+.admin_content #frmThemSP{
+
+}
+.admin_content #frmThemSP .chitiet_them{
+	display: flex;
+	padding: 5px;
+	justify-content: center;
+	align-items: center;
+}
+.admin_content #frmThemSP .chitiet_them label{
+	width: 300px;
+}
+.admin_content #frmThemSP .chitiet_them input{
+	width: 300px;
+}
+.admin_content #frmThemSP .chitiet_them select{
+	width: 300px;
+}

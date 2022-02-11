@@ -1,0 +1,152 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family:Arial, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:18px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.page_Header{
+	width: auto;
+	height:50px;
+	background-color:#34495E;
+	line-height:50px;
+	color:white;
+	justify-content: center;
+}
+
+.page_Header .Account{
+	float:right;
+}
+
+.page_Header .Account ul{
+	list-style: none;
+	overflow:hidden;
+	display:block;
+}
+
+.page_Header .Account ul li{
+	display:inline-block;
+	border-left: 1px solid;
+	width: 199px;
+	text-align: center;	
+}
+#Welcome{
+	width: 290px;
+}
+#Money{
+	width: 300px;
+}
+.page_Header .Account ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	font-size: 20px;
+}
+.page_Header .Account ul li a:hover{
+	transition-duration:0s;
+	color:#D8A70C;
+}
+
+.page_Header .Account ul li #Login{
+	text-decoration:none;
+	color:white;
+	font-size: 20px;
+}
+.page_Header .Account ul li #Login:hover{
+	transition-duration:0s;
+	color:#D8A70C;
+}
+
+.nav_bar{
+	display: flex;
+	color: red;
+	width : 1365px;
+	height: 40px;
+	align-items: center;
+	background-color: yellow;
+}
+.nav_bar a{
+	text-decoration: none;
+	flex-basis:25%;
+	border-right: 2px solid;
+	border-bottom: 2px solid;
+	line-height:40px;
+	justify-content: center;
+}
+.nav_bar a:hover{
+	background-color: #77ceb1;
+}
+.admin_content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.admin_content .content_DH{
+	
+}
+.admin_content .content_DH .DH_ngang {
+	display: flex;
+}
+.admin_content .content_DH .DH_ngang a{
+	text-decoration: none;
+	color: black;
+}
+.admin_content .content_DH .DH_ngang .ID_DH{
+	width: 100px;
+}
+.admin_content .content_DH .DH_ngang .Date{
+	width: 180px;
+}
+.admin_content .content_DH .DH_ngang .Status, .Status_ChoXuLy, .Status_DaXuLy, .Total{
+	width: 200px;
+}
+.admin_content .content_DH .DH_ngang .Status_ChoXuLy{
+	color: red;
+}
+.admin_content .content_DH .DH_ngang .Status_DaXuLy{
+	color: #1a38dd;
+}
+.admin_content .content_chitiet_dh{
+	width: 700px;
+	background-color: #e8dbe1;
+}
+.admin_content .content_chitiet_dh .header_chitiet_dh{
+	font-weight: bold;
+	padding-bottom: 2px;
+	border-bottom: 2px black solid;
+	text-align: left;
+	background-color: #67ce64;
+}
+.admin_content .content_chitiet_dh .chitiet_dh{
+	
+}
+.admin_content .content_chitiet_dh .tbl_chitiet_dh {
+	
+}
+.admin_content .content_chitiet_dh .tbl_chitiet_dh .id_lk, .sl_lk, .dg_lk{
+	width: 100px;
+}
+.admin_content .content_chitiet_dh .tbl_chitiet_dh .ten_lk{
+	width: 400px;
+}
+.admin_content .content_chitiet_dh .frmXuLy{
+
+}
+.admin_content .content_chitiet_dh .frmXuLy input[type=text]{
+	width: 50px;
+}
+.admin_content .content_chitiet_dh .frmXuLy .submit_dh {
+	width: 100px;
+	height: 30px;
+	margin: 6px;
+}
+.hidden_input{
+	display: none;
+}
+

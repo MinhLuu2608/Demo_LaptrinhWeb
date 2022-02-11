@@ -1,0 +1,113 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family:Arial, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:18px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.page_Header{
+	width: auto;
+	height:50px;
+	background-color:#34495E;
+	line-height:50px;
+	color:white;
+	justify-content: center;
+}
+
+.page_Header .Account{
+	float:right;
+}
+
+.page_Header .Account ul{
+	list-style: none;
+	overflow:hidden;
+	display:block;
+}
+
+.page_Header .Account ul li{
+	display:inline-block;
+	border-left: 1px solid;
+	width: 199px;
+	text-align: center;	
+}
+#Welcome{
+	width: 290px;
+}
+#Money{
+	width: 300px;
+}
+.page_Header .Account ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	font-size: 20px;
+}
+.page_Header .Account ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	font-size: 20px;
+}
+
+.page_Header .Account ul li a:hover{
+	transition-duration:0s;
+	color:#D8A70C;
+}
+
+.page_Header .Account ul li #Login{
+	text-decoration:none;
+	color:white;
+	font-size: 20px;
+}
+.page_Header .Account ul li #Login:hover{
+	transition-duration:0s;
+	color:#D8A70C;
+}
+
+.nav_bar{
+	display: flex;
+	color: red;
+	width : 1365px;
+	height: 40px;
+	align-items: center;
+	background-color: yellow;
+}
+.nav_bar a{
+	text-decoration: none;
+	flex-basis:20%;
+	border-right: 2px solid;
+	border-bottom: 2px solid;
+	line-height:40px;
+	justify-content: center;
+}
+.nav_bar a:hover{
+	background-color: #77ceb1;
+}
+.register{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.register{
+}
+.register .frmRegister{
+
+}
+.register .frmRegister .tblRegister{
+	text-align: right;
+}
+.register .frmRegister .tblRegister td{
+	padding: 10px;
+}
+.register .frmRegister .button{
+	width:240px;
+	height: 30px;
+	font-size: 20px;
+}

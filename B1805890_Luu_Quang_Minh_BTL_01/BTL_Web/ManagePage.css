@@ -1,0 +1,290 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family:Arial, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:18px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.page_Header{
+	width: auto;
+	height:50px;
+	background-color:#34495E;
+	line-height:50px;
+	color:white;
+	justify-content: center;
+}
+
+.page_Header .Account{
+	float:right;
+}
+
+.page_Header .Account ul{
+	list-style: none;
+	overflow:hidden;
+	display:block;
+}
+
+.page_Header .Account ul li{
+	display:inline-block;
+	border-left: 1px solid;
+	width: 199px;
+	text-align: center;	
+}
+#Welcome{
+	width: 290px;
+}
+#Money{
+	width: 300px;
+}
+.page_Header .Account ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	font-size: 20px;
+}
+.page_Header .Account ul li a{
+	text-decoration:none;
+	color:white;
+	display:block;
+	font-size: 20px;
+}
+
+.page_Header .Account ul li a:hover{
+	transition-duration:0s;
+	color:#D8A70C;
+}
+
+.page_Header .Account ul li #Login{
+	text-decoration:none;
+	color:white;
+	font-size: 20px;
+}
+.page_Header .Account ul li #Login:hover{
+	transition-duration:0s;
+	color:#D8A70C;
+}
+
+.nav_bar{
+	display: flex;
+	color: red;
+	width : 1365px;
+	height: 40px;
+	align-items: center;
+	background-color: yellow;
+}
+.nav_bar a{
+	text-decoration: none;
+	flex-basis:20%;
+	border-right: 2px solid;
+	border-bottom: 2px solid;
+	line-height:40px;
+	justify-content: center;
+}
+.nav_bar a:hover{
+	background-color: #77ceb1;
+}
+.hang_ngang{
+	margin-top: 30px;
+	display: flex;
+	
+}
+.hang_ngang .danh_muc {
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+}
+.hang_ngang .danh_muc a{
+	display: flex;
+	font-size: 30px;
+	width: 300px;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background: gray;
+	text-decoration: none;
+	border-bottom: 2px solid black;
+}
+.hang_ngang .danh_muc a:hover{
+	background-color: #ff0078;
+}
+.hang_ngang .thong_tin{
+	display: flex;
+	flex-direction: column;
+	background-color: #f0d9ee;
+	height: 300px;
+	width: 700px;
+	margin-left: 2px;
+	align-items: center;
+}
+.hang_ngang .thong_tin .div_edit_status{
+	display: flex;
+	width: 700px;
+	justify-content: right;
+}
+.hang_ngang .thong_tin .div_edit_status a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+.hang_ngang .thong_tin .tblRegister td{
+	padding: 10px;
+	font-size: 22px;
+}
+.hang_ngang .thong_tin table .title{
+	text-align: right;
+}
+.hang_ngang .thong_tin table .info{
+	text-align: left;
+}
+.hang_ngang .thong_tin table .info input{
+	width: 300px;
+}
+.hang_ngang .thong_tin .xac_nhan{
+	height: 50px;
+	width: 200px;
+	font-size: 22px;
+}
+.hang_ngang .thong_tin .tblChangePass td{
+	padding: 18px;
+	font-size: 22px;
+}
+.hang_ngang .thong_tin .xac_nhan_pass{
+	height: 50px;
+	width: 250px;
+	font-size: 22px;
+}
+.hang_ngang .divCart{
+	background-color: #f0d9ee;
+}
+.hang_ngang .divCart .tblCart{
+}
+.hang_ngang .divCart .tblCart th{
+	padding: 10px;
+}
+.hang_ngang .divCart .tblCart td{
+	padding-bottom: 7px;
+}
+.hang_ngang .divCart .tblCart .ten_sp{
+	width: 400px;
+}
+.hang_ngang .divCart .tblCart .don_gia{
+	width: 130px;
+}
+.hang_ngang .divCart .tblCart .tong_gia{
+	width: 130px;
+}
+.hang_ngang .divCart .tblCart .so_luong{
+	width: 40px;
+	font-size: 20px;
+	text-align: center;
+	-moz-appearance: textfield;
+}
+.hang_ngang .divCart .tblCart .dau{
+	width: 40px;
+	height: 30px;
+	font-size:20px;
+	align-items: center;
+}
+.hidden_input{
+	display: none;
+}
+.xoa_button{
+	text-decoration: underline;
+	color: blue;
+	cursor: pointer;
+}
+.hang_ngang .divCart .MuaNgay_Cart{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 200px;
+	text-decoration: none;
+	height: 40px;
+	width: 500px;
+	color: black;
+	border: 2px solid black;
+	background-color: white;
+}
+.hang_ngang .div_HoaDon {
+	background-color: #f0d9ee;
+}
+.hang_ngang .div_HoaDon .HD_ngang {
+	display: flex;
+}
+.hang_ngang .div_HoaDon .HD_ngang .ID_DH{
+	width: 100px;
+}
+.hang_ngang .div_HoaDon .HD_ngang .Date{
+	width: 180px;
+}
+.hang_ngang .div_HoaDon .HD_ngang .Status,.Total{
+	width: 200px;
+}
+.hang_ngang .div_HoaDon .Details_HD_ngang>summary{
+	display: inline-block;
+	width: 900px;
+	list-style-type: none;
+}
+.hang_ngang .div_HoaDon details>summary::after{
+	content: "+";
+}
+.hang_ngang .div_HoaDon details[open]>summary::after{
+	content: "-";
+}
+.hang_ngang .div_HoaDon .Details_HD_ngang summary{
+	display: flex;
+	border-top: 2px black solid;
+	border-bottom: 2px black solid;
+}
+.hang_ngang .div_HoaDon .Details_HD_ngang summary .ID_DH{
+	width: 100px;
+}
+.hang_ngang .div_HoaDon .Details_HD_ngang summary .Date{
+	width: 180px;
+}
+.hang_ngang .div_HoaDon .Details_HD_ngang summary .Status,.Total{
+	width: 200px;
+}
+.hang_ngang .div_HoaDon .Details_HD_ngang .Chitiet_HD_header{
+	margin-left: 100px;
+	display: flex;
+	width: 800px;
+	border-bottom: 1px black solid;
+}
+.hang_ngang .div_HoaDon .Details_HD_ngang .Chitiet_HD_header .ID_LK{
+	width: 100px;
+}
+.hang_ngang .div_HoaDon .Details_HD_ngang .Chitiet_HD_header .Ten_LK{
+	width: 400px;
+}
+.hang_ngang .div_HoaDon .Details_HD_ngang .Chitiet_HD_header .SL_LK{
+	width: 100px;
+}
+.hang_ngang .div_HoaDon .Details_HD_ngang .Chitiet_HD_header .Don_gia{
+	width: 200px;
+}
+
+.hang_ngang .div_HoaDon .Details_HD_ngang .Chitiet_HD{
+	margin-left: 100px;
+	display: flex;
+	width: 800px;
+}
+.hang_ngang .div_HoaDon .Details_HD_ngang .Chitiet_HD .ID_LK{
+	width: 100px;
+}
+.hang_ngang .div_HoaDon .Details_HD_ngang .Chitiet_HD .Ten_LK{
+	width: 400px;
+}
+.hang_ngang .div_HoaDon .Details_HD_ngang .Chitiet_HD .SL_LK{
+	width: 100px;
+}
+.hang_ngang .div_HoaDon .Details_HD_ngang .Chitiet_HD .Don_gia{
+	width: 200px;
+}
+
